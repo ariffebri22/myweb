@@ -402,7 +402,7 @@ const Home = () => {
                 </div>
             </section>
 
-            <section className="h-96 md:h-[56vh] flex flex-col justify-start mt-32 items-center w-full bg-black/[0.96] antialiased bg-grid-white/[0.02]">
+            <section className="h-96 md:h-[56vh] flex flex-col justify-start mt-32 items-center w-full bg-black/[0.96] antialiased bg-grid-white/[0.02] overflow-hidden">
                 <div
                     className="max-w-[40rem]"
                     data-aos="zoom-in-up"
