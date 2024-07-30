@@ -8,7 +8,11 @@ export function Navbar() {
     const navigate = useNavigate();
     const [active, setActive] = useState(null);
     return (
-        <div className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50")}>
+        <div
+            className={cn(
+                "fixed top-8 md:top-10 inset-x-0 max-w-2xl px-4 sm:px-6 md:px-0 mx-auto z-50"
+            )}
+        >
             <Menu setActive={setActive}>
                 <a href="#home">
                     <MenuItem
@@ -29,7 +33,7 @@ export function Navbar() {
                     active={active}
                     item="Portfolio"
                 >
-                    <div className="text-sm grid grid-cols-2 gap-10 p-4">
+                    <div className="text-sm grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10 2xl:gap-14 p-2 md:p-4">
                         <ProductItem
                             title="Level Up Beaute"
                             href="https://levelupbeaute.id"
@@ -38,7 +42,7 @@ export function Navbar() {
                         />
                         <ProductItem
                             title="Shellasaukia.co"
-                            href="https://shelasaukia.co"
+                            href="https://shellasaukia.co"
                             src="/AssetSSS.png"
                             description="This is Official Website for Shellasaukia.co a company operating in the fashion sector."
                         />

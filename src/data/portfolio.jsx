@@ -57,20 +57,19 @@ export const portfolio = [
         thumbnail: "/AssetLUS.png",
     },
     {
-        title: "Ankasa | Book Flight Ticket",
-        link: "ankasa",
-        thumbnail: "/AssetAnkasa.png",
+        title: "Mama Recipe | Find Your Recipe!",
+        link: "mama-recipe",
+        thumbnail: "/AssetFood.png",
     },
     {
         title: "Peworld Hireob | Temukan Talent Terbaik!",
         link: "hirejob",
         thumbnail: "/AssetHirejob.png",
     },
-
     {
-        title: "Mama Recipe | Find Your Recipe!",
-        link: "mama-recipe",
-        thumbnail: "/AssetFood.png",
+        title: "Ankasa | Book Flight Ticket",
+        link: "ankasa",
+        thumbnail: "/AssetAnkasa.png",
     },
     {
         title: "Shellasaukia.co",
