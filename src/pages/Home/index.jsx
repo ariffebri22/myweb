@@ -418,7 +418,7 @@ const Home = () => {
             </section>
             <section
                 id="Footer"
-                className="w-full h-24 border-t-[0.5px] flex items-center justify-between px-12 border-t-white bg-black/[0.96] antialiased bg-grid-white/[0.02]"
+                className="w-full h-24 border-t-[0.5px] flex flex-col md:flex-row items-center justify-center gap-4 md:gap-0 md:justify-between px-12 border-t-white bg-black/[0.96] antialiased bg-grid-white/[0.02]"
             >
                 <h1 className="text-white">@ 2024. All Rights Reserved</h1>
                 <h1 className="text-white">Created by Arif Febriansyah</h1>
